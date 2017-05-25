@@ -10,7 +10,7 @@ const { User} = require('../server/models/user')
 var id = new ObjectID().toHexString()
 
 Todo.findOneAndRemove(id).then((todo) => {
-	
+	 
 })
 
 Todo.findByIdAndRemove(id).then((todo) => {
